@@ -4,8 +4,10 @@ This guide explains how to install dependencies, prepare the environment, ingest
 
 1. 📦 Clone the Repository
 
+```bash
 git clone https://github.com/fantasyfist0320/multi-agent.git
 cd multi-agent
+```
 
 2. 🐍 Create & Activate Python Environment
 
