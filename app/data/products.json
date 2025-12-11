@@ -1,0 +1,61 @@
+{
+  "products": [
+    {
+      "name": "EUROPAX",
+      "description": "Assurance voyage pour l'Europe et l'espace Schengen",
+      "age_min": 18,
+      "age_max": 70,
+      "duration_max_days": 90,
+      "destinations": ["Europe", "Schengen", "France", "Espagne", "Italie", "Allemagne", "Portugal", "Belgique", "Pays-Bas", "Suisse"],
+      "purposes": ["Personal trip", "Tourism", "Business trip"],
+      "key_features": [
+        "Frais médicaux jusqu'à 500 000€",
+        "Rapatriement médical inclus",
+        "Responsabilité civile 4 500 000€",
+        "Bagages couverts jusqu'à 2 000€"
+      ],
+      "url": "https://www.acs-ami.com/fr/assurance-voyage-schengen/"
+    },
+    {
+      "name": "Globe Traveller",
+      "description": "Assurance voyage monde entier hors pays de résidence",
+      "age_min": 18,
+      "age_max": 65,
+      "duration_max_days": 180,
+      "destinations": ["Monde entier", "World", "Asie", "Amérique", "Afrique", "Océanie", "Canada", "USA", "Japon", "Thaïlande", "Australie"],
+      "purposes": ["Personal trip", "Tourism", "Working Holiday", "PVT"],
+      "key_features": [
+        "Frais médicaux jusqu'à 1 000 000€",
+        "Rapatriement médical inclus",
+        "Sports et loisirs couverts",
+        "Responsabilité civile 4 500 000€",
+        "Bagages couverts jusqu'à 3 000€"
+      ],
+      "url": "https://www.acs-ami.com/fr/assurance-globe-traveller/"
+    },
+    {
+      "name": "ACS Expat",
+      "description": "Assurance expatriation longue durée (plus de 6 mois)",
+      "age_min": 18,
+      "age_max": 65,
+      "duration_max_days": 730,
+      "duration_min_days": 180,
+      "destinations": ["Monde entier", "World"],
+      "purposes": ["Expatriation", "Long-term stay", "Relocation", "Work abroad"],
+      "key_features": [
+        "Frais médicaux jusqu'à 2 000 000€",
+        "Rapatriement médical illimité",
+        "Hospitalisation prise en charge au 1er euro",
+        "Maternité couverte",
+        "Assistance psychologique incluse"
+      ],
+      "url": "https://www.acs-ami.com/fr/assurance-expatries/"
+    }
+  ],
+  "eligibility_notes": {
+    "age": "L'âge doit être dans la fourchette age_min - age_max au moment du départ",
+    "duration": "La durée du voyage en jours doit être inférieure ou égale à duration_max_days",
+    "destination": "La destination doit correspondre à une des zones couvertes par le produit",
+    "purpose": "Le type de voyage doit correspondre aux purposes acceptés"
+  }
+}
